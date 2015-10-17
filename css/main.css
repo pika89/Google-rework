@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+nav ul {
+	list-style: none;
+	width: 300px;
+	float: right;
+	padding: 5px;
+
+}
+nav ul li {
+	display: inline;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #222;
+
+
+
+}
+nav ul li a:hover {
+	text-decoration: underline;
+	
+
+
+}
+
+#signIn{
+	text-decoration: none;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	padding: 5px 10px;
+
+
+
+
+}
+
+#signIn a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 28px;
+	text-decoration: none;
+
+}
+
+nav ul li img {
+
+	position: relative;
+	top: 5px;
+
+}
+
