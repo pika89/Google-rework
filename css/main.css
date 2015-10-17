@@ -2,6 +2,8 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100
 }
 
 .main {
@@ -70,3 +72,71 @@ nav ul li img {
 
 }
 
+
+.content {
+	position: relative;
+	top: 100px;
+	height: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.content .logo {
+	width: 50%;	
+	margin: 0 auto;
+	padding: 100px 0 30px 0;
+	text-align: center;
+
+	
+	
+
+}
+.content .logo img{
+	width: 272px; 
+	height: 92px;
+	text-align: center;
+	
+
+}
+.search{
+	 width: 400px;
+     margin: 0 auto;
+     left: -100px;
+     position: relative;
+
+}
+
+.input{
+	width: 600px;
+	height: 40px;
+	margin: 0 auto;
+	position: relative;
+	font-size: 20px;
+
+
+}
+
+.input:hover{
+
+	border: 1px solid gray;
+}
+
+.voice{
+	display: inline;
+	position: relative;
+	height: 24px;
+	width: 24px;
+	top: 29px;
+	left: 560px;
+	z-index: 1;
+
+}
+
+.voice img {
+	background-size: 24px 24px;
+	height: 23px;
+	width: 23px;
+	position: relative;
+
+
+}
