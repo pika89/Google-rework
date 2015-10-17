@@ -36,6 +36,7 @@ nav ul li a {
 
 
 
+
 }
 nav ul li a:hover {
 	text-decoration: underline;
@@ -50,6 +51,7 @@ nav ul li a:hover {
 	border: 1px solid #4285f4;
 	border-radius: 2px;
 	padding: 5px 10px;
+	cursor: default;
 
 
 
@@ -61,12 +63,20 @@ ul a {
 	text-decoration: none;
 }
 
-#signIn a,  {
+
+
+
+#signIn a  {
 	color: white;
 	font-size: 13px;
 	font-weight: bold;
 	line-height: 28px;
-	text-decoration: none;
+	
+
+
+}
+
+#signIn a:hover{
 
 }
 
@@ -74,6 +84,8 @@ nav ul li img {
 
 	position: relative;
 	top: 5px;
+	cursor: default;
+
 
 }
 
@@ -121,25 +133,27 @@ nav ul li img {
 
 
 }
+.input:hover{
+	
+	border: 1px solid #d9d9d9;
+
+}
 
 .input:focus{
 
 	outline: none !important;
-    border:1px solid rgb(0, 114, 255);
+    border:1px solid rgb(120, 145, 255);
     
 }
-.input:visited{
 
-	border: 1px solid yellow;
-}
 
 .voice{
 	display: inline;
 	position: relative;
 	height: 24px;
 	width: 24px;
-	top: 29px;
-	left: 560px;
+	top: 30px;
+	left: 565px;
 	z-index: 1;
 
 }
@@ -152,3 +166,48 @@ nav ul li img {
 
 
 }
+
+.buttons{
+	width: 400px;
+	padding-top: 30px;
+    margin: 0 auto;
+    left: 70px;
+    position: relative;
+
+
+
+}
+#button1{
+	display: inline;
+	padding-right: 5px;
+
+}
+#button2{
+	padding-left: 5px;
+	display: inline;
+}
+.button1, .button2{
+	padding: 0 16px;
+	height: 36px;
+	color: #757575;
+	border: 1px solid #f2f2f2;
+	font-weight: bold;
+	background-color: #F4F4F4;
+
+}
+.button1:hover, 
+  .button2:hover
+ 
+ {
+     border: 1px solid #CCCCCC;
+
+     color: black;
+     
+  }
+
+  .button1:active, 
+  .button2:active, .button1:focus, .button2:focus{
+  	 border: 1px solid rgb(40, 114, 255); /* here configure as your needs */
+     color: black;
+
+  }
